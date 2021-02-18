@@ -1,0 +1,28 @@
+
+SETUP:
+-------- 
+  Copy \\ENGINEERING\PDI_GITEA to the local drive C:
+
+
+1. LOGIN TO THE REPOSITORY 
+   a. goto GITEA home directory (C:\PDI_GITEA) and execute the command "login"
+
+2. CREATING REPOSITORY "PDI-TEST"
+
+    a. first create the respository manually on the GITEA Website
+    b. then at the command prompt of c:\PDI_GITEA execute command "create PDI-TEST"
+    c. now if you refresh the GITEA website, it will have all the sub directories.
+
+3. POSTING FILES 
+   This example illustrates how to post hello.txt under Doc directory
+    a. get most uptodate local repository from remote using  GetRepo <Repository name>
+    a. get ready with hello.txt under project Doc directory  (example: C:\PDI_GITEA\PDI-TEST\DOC)
+    b. execute command "post <project> "comments" ( example : post PDI_TEST "created hello.txt file")
+    c.  now if you refresh the GITEA website, you would see hello.txt posted under DOC directory
+
+4. CREATING VERSION RELEASES
+   a. goto GITEA home directory (C:\PDI_GITEA) and execute the command "Release"
+
+
+     
+     
